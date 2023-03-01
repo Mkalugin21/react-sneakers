@@ -6,4 +6,21 @@ body {
   background-color: #E7F6FF;
 }
 
+.App {
+  width: 1080px;
+  max-width: 100%;
+  margin: 50px auto;
+  background-color: #fff;
+
+  .container {
+    padding: 0 40px;
+  }
+}
+
+.title-section {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
 
