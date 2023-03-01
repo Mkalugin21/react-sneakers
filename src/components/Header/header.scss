@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 40px;
+
+    .header__left {
+        display: flex;
+
+        .logo-image {
+            width: 40px;
+            height: 40px;
+            margin-right: 16px;
+        }
+    }
+
+    .logo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .logo-name {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .logo-description {
+            display: block;               
+        }
+    }
+
+    .header-right {
+        display: flex;
+        width: 196px;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-right__cart {
+            display: flex;
+            align-items: center;
+
+            .cart-price {
+                padding-left: 10px;
+            }
+        }
+    }
+}
