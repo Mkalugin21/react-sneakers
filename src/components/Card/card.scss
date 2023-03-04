@@ -1,0 +1,56 @@
+.card {
+    width: 210px;
+    padding: 20px 30px 34px;
+    border: 1px solid red;
+    border-radius: 40px;
+
+        .card__image {
+            width: 133px;   
+            height: auto;   
+            object-fit: cover;
+            margin-bottom: 14px;
+        }
+
+        .card__name {
+            width: 150px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            margin-bottom: 14px;
+        }
+
+        .card-price-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;        
+
+                .price-title{
+                    font-size: 11px;
+                    color: #BDBDBD;
+                    font-weight: 500;
+                    line-height: 13.5px;
+                    text-transform: uppercase;
+                }
+
+                .price-value {
+                    display: block;
+                    position: relative;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 17px;
+                }
+
+                .button-add-cart {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 32px;
+                    height: 32px;
+                    border: none;
+                    background: none;
+                    cursor: pointer;
+                }
+               
+        }
+}
