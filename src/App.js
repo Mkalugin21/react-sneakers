@@ -1,5 +1,6 @@
 import React from "react";
 import CardList from "./components/CardList/CardList";
+import Drawer from "./components/Drawer/Drawer";
 import Header from "./components/Header/Header";
 
 
@@ -9,6 +10,7 @@ function App() {
       <div className="container">
         <Header />
         <CardList />
+        <Drawer />
       </div>
 
     </div>

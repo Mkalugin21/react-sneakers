@@ -3,7 +3,8 @@ import styles from "./card.scss"
 
 function Card() {
     return (
-        <li className="card">
+        <div>
+            <li className="card">
             <img className="card__image" src="./image/sneakers/sneakers.jpg" alt="" />
             <p className="card__name">Мужские Кроссовки Nike Blazer Mid Suede</p>
             <div className="card-price-wrapper">
@@ -14,6 +15,10 @@ function Card() {
                 </button>
             </div>
         </li>
+        </div>
+        
+
+        
     )
 };
 
